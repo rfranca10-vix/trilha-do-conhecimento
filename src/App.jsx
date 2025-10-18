@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 // ================== CONFIG GERAL ==================
-const FEEDBACK_DELAY_MS = 100000; // 100s
+const FEEDBACK_DELAY_MS = 20000; // 20s
 const PHASE_SIZE = 5;
 
 const AVATARS = [
