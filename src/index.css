@@ -1,0 +1,11 @@
+/* src/index.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg, #0ea5e9, #7c3aed);
+  color: #fff;
+}
