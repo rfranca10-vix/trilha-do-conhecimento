@@ -1,14 +1,14 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 // ================== CONFIG GERAL ==================
-const FEEDBACK_DELAY_MS = 10000; // 10s
+const FEEDBACK_DELAY_MS = 100000; // 100s
 const PHASE_SIZE = 5;
 
 const AVATARS = [
   { id: "ze",   name: "Zé",   emoji: "😎", tagline: "Descolado, sempre no estilo!" },
   { id: "kako", name: "Kako", emoji: "🤓", tagline: "Nerd esperto, focado no 100!" },
   { id: "lia",  name: "Lia",  emoji: "😊", tagline: "Criativa e otimista!" },
-  { id: "duda", name: "Duda", emoji: "😏", tagline: "Estratégica, resolve tudo!" },
+  { id: "dora", name: "Dora", emoji: "😏", tagline: "Estratégica, resolve tudo!" },
 ];
 
 const MODES = [
