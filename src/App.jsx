@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 
 // ================== CONFIG GERAL ==================
 const FEEDBACK_DELAY_MS = 5000; // 5s
-const PHASE_SIZE = 5;
+const PHASE_SIZE = 20;
 
 const AVATARS = [
   { id: "ze",   name: "Zé",   emoji: "😎", tagline: "Descolado, sempre no estilo!" },
